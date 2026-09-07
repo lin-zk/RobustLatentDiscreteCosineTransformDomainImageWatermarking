@@ -1,0 +1,45 @@
+[project]
+name = "release-v1"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "torch==2.5.1",
+    "torchvision==0.20.1",
+    "torchaudio==2.5.1",
+    "tqdm>=4.67.3",
+    "tensorboard>=2.20.0",
+    "torch-dct>=0.1.6",
+    "scikit-image>=0.24.0",
+    "torchmetrics>=1.8.2",
+    "lpips>=0.1.4",
+    "diffusers>=0.36.0",
+    "opencv-python>=4.13.0.92",
+    "matplotlib>=3.9.4",
+    "bm3d>=4.0.3",
+    "compressai>=1.2.6",
+    "transformers>=4.57.6",
+    "invisible-watermark>=0.2.0",
+    "onnxruntime>=1.24.3",
+]
+
+[[tool.uv.index]]
+name = "tsinghua"
+url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+default = true
+
+[[tool.uv.index]]
+name = "pypi"
+url = "https://pypi.org/simple"
+explicit = true
+
+[[tool.uv.index]]
+name = "pytorch-cu121"
+url = "https://download.pytorch.org/whl/cu121"
+explicit = true
+
+[tool.uv.sources]
+torch = { index = "pytorch-cu121" }
+torchvision = { index = "pytorch-cu121" }
+torchaudio = { index = "pytorch-cu121" }

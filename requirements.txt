@@ -1,0 +1,14 @@
+torch>=2.4
+torchvision
+diffusers
+transformers
+scikit-image
+torchmetrics
+lpips
+torch-dct
+tqdm
+pillow
+numpy
+opencv-python
+matplotlib
+scipy
