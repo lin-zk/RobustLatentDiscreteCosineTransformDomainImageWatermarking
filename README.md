@@ -91,7 +91,7 @@ python Extract.py \
 ```
 结果保存于data_dir/extracting_metrics.txt，记录了平均提取Acc.以及Esr.以及各图片的详细提取信息
 
-### 攻击模拟
+### 攻击测试
 应用多种攻击测试水印鲁棒性：
 ```bash
 python Attack.py --input_dir /水印/图片/路径
