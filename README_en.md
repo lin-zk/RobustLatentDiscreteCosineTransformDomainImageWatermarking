@@ -6,6 +6,9 @@
 
 [English](README_en.md) | [中文](README.md)
 
+## 🎉 News
+**🔥 Our paper has been accepted by [ICIG 2026](https://icig.csig.org.cn/)!**
+
 This repository is the official implementation of our paper, **proposing a robust image watermarking method in the VAE latent space using frequency domain embedding**. Related code will be uploaded later.
 
 ## 🔍 Overview
@@ -90,7 +93,7 @@ python Extract.py \
 ```
 Results are saved in data_dir/extracting_metrics.txt, recording average extraction Acc. and Esr. as well as detailed extraction information for each image.
 
-### Attack Simulation
+### Attack Tests
 Apply various attacks to test watermark robustness:
 ```bash
 python Attack.py --input_dir /path/to/watermarked/images
