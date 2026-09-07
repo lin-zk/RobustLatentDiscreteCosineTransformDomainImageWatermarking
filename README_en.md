@@ -8,30 +8,6 @@
 
 This repository is the official implementation of our paper, **proposing a robust image watermarking method in the VAE latent space using frequency domain embedding**. Related code will be uploaded later.
 
-## 📋 Table of Contents
-<table>
-<tr>
-<td>
-
-- [Overview](#overview)  
-- [Features](#features)  
-- [Environment Setup](#environment-setup)  
-- [Usage](#usage)  
-- [Project Structure](#project-structure)  
-
-</td>
-<td>
-
-- [Performance Evaluation](#performance-evaluation)  
-- [Acknowledgments](#acknowledgments)  
-- [License](#license)  
-- [Contact](#contact)  
-<!-- - [Citation](#citation) -->
-
-</td>
-</tr>
-</table>
-
 ## 🔍 Overview
 
 ![Overview](Image/Overview.png)
